@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashGrpcClient", "HashGrpcClient\HashGrpcClient.csproj", "{61D57D67-413D-4524-B5C7-0ED4020E3B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashGrpcBenchmark", "HashGrpcBenchmark\HashGrpcBenchmark.csproj", "{34D57F66-E7D3-443D-9648-D0252BE2325C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashProxy", "HashProxy\HashProxy.csproj", "{A4C551B1-1076-44DF-8DAD-AA9637D85A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashProxyBenchmark", "HashProxyBenchmark\HashProxyBenchmark.csproj", "{9F3C93B0-13B3-4AEF-8174-C4749B8268F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{18895784-4E59-4A32-B61A-EBCC2269CAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashHttpJsonClient", "HashHttpJsonClient\HashHttpJsonClient.csproj", "{8C70AD77-95C5-4DF1-A02D-EFC1A9C51028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashHttpJsonBenchmark", "HashHttpJsonBenchmark\HashHttpJsonBenchmark.csproj", "{378C8722-9655-4317-8708-333600D44A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D57D67-413D-4524-B5C7-0ED4020E3B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D57D67-413D-4524-B5C7-0ED4020E3B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D57D67-413D-4524-B5C7-0ED4020E3B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D57D67-413D-4524-B5C7-0ED4020E3B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D57F66-E7D3-443D-9648-D0252BE2325C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D57F66-E7D3-443D-9648-D0252BE2325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D57F66-E7D3-443D-9648-D0252BE2325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D57F66-E7D3-443D-9648-D0252BE2325C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C551B1-1076-44DF-8DAD-AA9637D85A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C551B1-1076-44DF-8DAD-AA9637D85A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C551B1-1076-44DF-8DAD-AA9637D85A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C551B1-1076-44DF-8DAD-AA9637D85A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3C93B0-13B3-4AEF-8174-C4749B8268F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C93B0-13B3-4AEF-8174-C4749B8268F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C93B0-13B3-4AEF-8174-C4749B8268F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C93B0-13B3-4AEF-8174-C4749B8268F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18895784-4E59-4A32-B61A-EBCC2269CAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18895784-4E59-4A32-B61A-EBCC2269CAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18895784-4E59-4A32-B61A-EBCC2269CAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18895784-4E59-4A32-B61A-EBCC2269CAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C70AD77-95C5-4DF1-A02D-EFC1A9C51028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C70AD77-95C5-4DF1-A02D-EFC1A9C51028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C70AD77-95C5-4DF1-A02D-EFC1A9C51028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C70AD77-95C5-4DF1-A02D-EFC1A9C51028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378C8722-9655-4317-8708-333600D44A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378C8722-9655-4317-8708-333600D44A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378C8722-9655-4317-8708-333600D44A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378C8722-9655-4317-8708-333600D44A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,378 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=5000]
+//   HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=50000]
+//   HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=500000]
+
+// Validating benchmarks:
+// ***** Building 3 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:04 (4.03 sec)   *****
+// **************************
+// Benchmark: HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=5000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\_PROJECTS\_J4Net\_SAMPLE\dotnet-sample\HashProxyBenchmark\bin\Release\2713db28-46e6-4878-8359-75fb03ba20de.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0
+// GC=Concurrent Workstation
+// Job: Job-TOQMCM(Runtime=Clr, IsBaseline=True)
+
+Pilot  1: 16 op, 2863956.72 ns, 178.9973 us/op
+Pilot  2: 32 op, 5045999.43 ns, 157.6875 us/op
+Pilot  3: 64 op, 4048787.44 ns, 63.2623 us/op
+Pilot  4: 128 op, 6743599.92 ns, 52.6844 us/op
+Pilot  5: 256 op, 11567494.91 ns, 45.1855 us/op
+Pilot  6: 512 op, 20788729.41 ns, 40.6030 us/op
+Pilot  7: 1024 op, 37960153.40 ns, 37.0705 us/op
+Pilot  8: 2048 op, 74729317.91 ns, 36.4889 us/op
+Pilot  9: 4096 op, 165123772.93 ns, 40.3134 us/op
+Pilot 10: 8192 op, 247913306.19 ns, 30.2629 us/op
+Pilot 11: 16384 op, 474358021.69 ns, 28.9525 us/op
+Pilot 12: 32768 op, 934174976.42 ns, 28.5088 us/op
+
+IdleWarmup  1: 32768 op, 276706.83 ns, 8.4444 ns/op
+IdleWarmup  2: 32768 op, 142048.31 ns, 4.3350 ns/op
+IdleWarmup  3: 32768 op, 143690.49 ns, 4.3851 ns/op
+IdleWarmup  4: 32768 op, 142869.40 ns, 4.3600 ns/op
+IdleWarmup  5: 32768 op, 142869.40 ns, 4.3600 ns/op
+IdleWarmup  6: 32768 op, 137121.78 ns, 4.1846 ns/op
+
+IdleTarget  1: 32768 op, 161343.89 ns, 4.9238 ns/op
+IdleTarget  2: 32768 op, 139585.05 ns, 4.2598 ns/op
+IdleTarget  3: 32768 op, 142869.40 ns, 4.3600 ns/op
+IdleTarget  4: 32768 op, 138763.96 ns, 4.2347 ns/op
+IdleTarget  5: 32768 op, 141637.77 ns, 4.3224 ns/op
+IdleTarget  6: 32768 op, 140816.68 ns, 4.2974 ns/op
+IdleTarget  7: 32768 op, 138353.41 ns, 4.2222 ns/op
+IdleTarget  8: 32768 op, 140816.68 ns, 4.2974 ns/op
+IdleTarget  9: 32768 op, 138763.96 ns, 4.2347 ns/op
+IdleTarget 10: 32768 op, 141637.77 ns, 4.3224 ns/op
+IdleTarget 11: 32768 op, 141227.22 ns, 4.3099 ns/op
+IdleTarget 12: 32768 op, 139995.59 ns, 4.2723 ns/op
+IdleTarget 13: 32768 op, 138763.96 ns, 4.2347 ns/op
+IdleTarget 14: 32768 op, 139585.05 ns, 4.2598 ns/op
+IdleTarget 15: 32768 op, 140406.14 ns, 4.2849 ns/op
+
+MainWarmup  1: 32768 op, 933793991.36 ns, 28.4971 us/op
+MainWarmup  2: 32768 op, 931803262.27 ns, 28.4364 us/op
+MainWarmup  3: 32768 op, 928943821.53 ns, 28.3491 us/op
+MainWarmup  4: 32768 op, 933178174.97 ns, 28.4783 us/op
+MainWarmup  5: 32768 op, 936043363.33 ns, 28.5658 us/op
+MainWarmup  6: 32768 op, 934296086.98 ns, 28.5125 us/op
+MainWarmup  7: 32768 op, 941300382.50 ns, 28.7262 us/op
+MainWarmup  8: 32768 op, 943105956.13 ns, 28.7813 us/op
+MainWarmup  9: 32768 op, 954487063.96 ns, 29.1286 us/op
+MainWarmup 10: 32768 op, 971697900.19 ns, 29.6539 us/op
+MainWarmup 11: 32768 op, 947360015.70 ns, 28.9111 us/op
+
+// BeforeMainRun
+MainTarget  1: 32768 op, 943046837.76 ns, 28.7795 us/op
+MainTarget  2: 32768 op, 988200137.04 ns, 30.1575 us/op
+MainTarget  3: 32768 op, 983893527.81 ns, 30.0260 us/op
+MainTarget  4: 32768 op, 953115846.15 ns, 29.0868 us/op
+MainTarget  5: 32768 op, 936760584.14 ns, 28.5877 us/op
+MainTarget  6: 32768 op, 938163003.31 ns, 28.6305 us/op
+MainTarget  7: 32768 op, 941522486.95 ns, 28.7330 us/op
+MainTarget  8: 32768 op, 938722575.13 ns, 28.6475 us/op
+MainTarget  9: 32768 op, 961906419.72 ns, 29.3551 us/op
+MainTarget 10: 32768 op, 971361664.44 ns, 29.6436 us/op
+MainTarget 11: 32768 op, 967607237.24 ns, 29.5290 us/op
+MainTarget 12: 32768 op, 956600956.32 ns, 29.1931 us/op
+MainTarget 13: 32768 op, 960165301.54 ns, 29.3019 us/op
+MainTarget 14: 32768 op, 1064086368.66 ns, 32.4733 us/op
+MainTarget 15: 32768 op, 983809776.78 ns, 30.0235 us/op
+MainTarget 16: 32768 op, 942351375.80 ns, 28.7583 us/op
+MainTarget 17: 32768 op, 960674786.96 ns, 29.3175 us/op
+
+// AfterMainRun
+Result  1: 32768 op, 942905199.99 ns, 28.7752 us/op
+Result  2: 32768 op, 988058499.27 ns, 30.1532 us/op
+Result  3: 32768 op, 983751890.04 ns, 30.0217 us/op
+Result  4: 32768 op, 952974208.38 ns, 29.0825 us/op
+Result  5: 32768 op, 936618946.37 ns, 28.5833 us/op
+Result  6: 32768 op, 938021365.54 ns, 28.6261 us/op
+Result  7: 32768 op, 941380849.18 ns, 28.7287 us/op
+Result  8: 32768 op, 938580937.36 ns, 28.6432 us/op
+Result  9: 32768 op, 961764781.95 ns, 29.3507 us/op
+Result 10: 32768 op, 971220026.68 ns, 29.6393 us/op
+Result 11: 32768 op, 967465599.47 ns, 29.5247 us/op
+Result 12: 32768 op, 956459318.55 ns, 29.1888 us/op
+Result 13: 32768 op, 960023663.77 ns, 29.2976 us/op
+Result 14: 32768 op, 983668139.02 ns, 30.0192 us/op
+Result 15: 32768 op, 942209738.03 ns, 28.7540 us/op
+Result 16: 32768 op, 960533149.19 ns, 29.3131 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 29.2313 us, StdErr = 0.1326 us (0.45%); N = 16, StdDev = 0.5303 us
+Min = 28.5833 us, Q1 = 28.7413 us, Median = 29.2432 us, Q3 = 29.5820 us, Max = 30.1532 us
+IQR = 0.8407 us, LowerFence = 27.4803 us, UpperFence = 30.8430 us
+ConfidenceInterval = [28.6914 us; 29.7712 us] (CI 99.9%), Margin = 0.5399 us (1.85% of Mean)
+Skewness = 0.35, Kurtosis = 1.68
+
+
+// **************************
+// Benchmark: HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=50000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\_PROJECTS\_J4Net\_SAMPLE\dotnet-sample\HashProxyBenchmark\bin\Release\84cb90b8-712e-4fb7-b0f9-452fe9a8d297.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0
+// GC=Concurrent Workstation
+// Job: Job-TOQMCM(Runtime=Clr, IsBaseline=True)
+
+Pilot  1: 16 op, 4922836.15 ns, 307.6773 us/op
+Pilot  2: 32 op, 9681454.61 ns, 302.5455 us/op
+Pilot  3: 64 op, 19168311.24 ns, 299.5049 us/op
+Pilot  4: 128 op, 36639432.53 ns, 286.2456 us/op
+Pilot  5: 256 op, 68976771.82 ns, 269.4405 us/op
+Pilot  6: 512 op, 133379670.09 ns, 260.5072 us/op
+Pilot  7: 1024 op, 256725638.61 ns, 250.7086 us/op
+Pilot  8: 2048 op, 509569170.75 ns, 248.8131 us/op
+
+IdleWarmup  1: 2048 op, 11495.24 ns, 5.6129 ns/op
+IdleWarmup  2: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleWarmup  3: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleWarmup  4: 2048 op, 9031.97 ns, 4.4101 ns/op
+IdleWarmup  5: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleWarmup  6: 2048 op, 9031.97 ns, 4.4101 ns/op
+
+IdleTarget  1: 2048 op, 10263.61 ns, 5.0115 ns/op
+IdleTarget  2: 2048 op, 9853.06 ns, 4.8111 ns/op
+IdleTarget  3: 2048 op, 10263.61 ns, 5.0115 ns/op
+IdleTarget  4: 2048 op, 9853.06 ns, 4.8111 ns/op
+IdleTarget  5: 2048 op, 9853.06 ns, 4.8111 ns/op
+IdleTarget  6: 2048 op, 10263.61 ns, 5.0115 ns/op
+IdleTarget  7: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget  8: 2048 op, 11084.69 ns, 5.4124 ns/op
+IdleTarget  9: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 10: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 11: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 12: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 13: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 14: 2048 op, 9442.52 ns, 4.6106 ns/op
+IdleTarget 15: 2048 op, 9853.06 ns, 4.8111 ns/op
+
+MainWarmup  1: 2048 op, 531144502.96 ns, 259.3479 us/op
+MainWarmup  2: 2048 op, 523184049.86 ns, 255.4610 us/op
+MainWarmup  3: 2048 op, 510645617.79 ns, 249.3387 us/op
+MainWarmup  4: 2048 op, 502929027.98 ns, 245.5708 us/op
+MainWarmup  5: 2048 op, 510252316.39 ns, 249.1466 us/op
+MainWarmup  6: 2048 op, 502592381.69 ns, 245.4064 us/op
+MainWarmup  7: 2048 op, 505826238.79 ns, 246.9855 us/op
+MainWarmup  8: 2048 op, 504622112.49 ns, 246.3975 us/op
+
+// BeforeMainRun
+MainTarget  1: 2048 op, 501963838.44 ns, 245.0995 us/op
+MainTarget  2: 2048 op, 512878157.44 ns, 250.4288 us/op
+MainTarget  3: 2048 op, 503186028.69 ns, 245.6963 us/op
+MainTarget  4: 2048 op, 510480168.45 ns, 249.2579 us/op
+MainTarget  5: 2048 op, 504329394.43 ns, 246.2546 us/op
+MainTarget  6: 2048 op, 507960658.37 ns, 248.0277 us/op
+MainTarget  7: 2048 op, 546377747.52 ns, 266.7860 us/op
+MainTarget  8: 2048 op, 527669245.84 ns, 257.6510 us/op
+MainTarget  9: 2048 op, 507273817.83 ns, 247.6923 us/op
+MainTarget 10: 2048 op, 520698614.95 ns, 254.2474 us/op
+MainTarget 11: 2048 op, 509708345.26 ns, 248.8810 us/op
+MainTarget 12: 2048 op, 501242101.64 ns, 244.7471 us/op
+MainTarget 13: 2048 op, 506103766.70 ns, 247.1210 us/op
+MainTarget 14: 2048 op, 510369321.51 ns, 249.2038 us/op
+MainTarget 15: 2048 op, 508353959.76 ns, 248.2197 us/op
+
+// AfterMainRun
+Result  1: 2048 op, 501954012.75 ns, 245.0947 us/op
+Result  2: 2048 op, 512868331.75 ns, 250.4240 us/op
+Result  3: 2048 op, 503176202.99 ns, 245.6915 us/op
+Result  4: 2048 op, 510470342.76 ns, 249.2531 us/op
+Result  5: 2048 op, 504319568.74 ns, 246.2498 us/op
+Result  6: 2048 op, 507950832.67 ns, 248.0229 us/op
+Result  7: 2048 op, 507263992.14 ns, 247.6875 us/op
+Result  8: 2048 op, 520688789.25 ns, 254.2426 us/op
+Result  9: 2048 op, 509698519.56 ns, 248.8762 us/op
+Result 10: 2048 op, 501232275.95 ns, 244.7423 us/op
+Result 11: 2048 op, 506093941.01 ns, 247.1162 us/op
+Result 12: 2048 op, 510359495.81 ns, 249.1990 us/op
+Result 13: 2048 op, 508344134.07 ns, 248.2149 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 248.0627 us, StdErr = 0.7023 us (0.28%); N = 13, StdDev = 2.5321 us
+Min = 244.7423 us, Q1 = 245.9706 us, Median = 248.0229 us, Q3 = 249.2260 us, Max = 254.2426 us
+IQR = 3.2554 us, LowerFence = 241.0876 us, UpperFence = 254.1091 us
+ConfidenceInterval = [245.0303 us; 251.0950 us] (CI 99.9%), Margin = 3.0323 us (1.22% of Mean)
+Skewness = 0.81, Kurtosis = 3.25
+
+
+// **************************
+// Benchmark: HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=500000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\_PROJECTS\_J4Net\_SAMPLE\dotnet-sample\HashProxyBenchmark\bin\Release\1fbb5c69-3cf9-496a-9e4e-bb3c7d227fa8.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0
+// GC=Concurrent Workstation
+// Job: Job-TOQMCM(Runtime=Clr, IsBaseline=True)
+
+Pilot  1: 16 op, 44275966.21 ns, 2.7672 ms/op
+Pilot  2: 32 op, 82943487.35 ns, 2.5920 ms/op
+Pilot  3: 64 op, 165914891.71 ns, 2.5924 ms/op
+Pilot  4: 128 op, 321089945.73 ns, 2.5085 ms/op
+Pilot  5: 256 op, 632722594.02 ns, 2.4716 ms/op
+
+IdleWarmup  1: 256 op, 3694.90 ns, 14.4332 ns/op
+IdleWarmup  2: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleWarmup  3: 256 op, 50907.49 ns, 198.8574 ns/op
+IdleWarmup  4: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleWarmup  5: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleWarmup  6: 256 op, 2052.72 ns, 8.0184 ns/op
+
+IdleTarget  1: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget  2: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget  3: 256 op, 2463.27 ns, 9.6221 ns/op
+IdleTarget  4: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget  5: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget  6: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget  7: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget  8: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget  9: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 10: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 11: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget 12: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 13: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 14: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 15: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget 16: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 17: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget 18: 256 op, 1642.18 ns, 6.4148 ns/op
+IdleTarget 19: 256 op, 2052.72 ns, 8.0184 ns/op
+IdleTarget 20: 256 op, 1642.18 ns, 6.4148 ns/op
+
+MainWarmup  1: 256 op, 664846860.83 ns, 2.5971 ms/op
+MainWarmup  2: 256 op, 684204843.52 ns, 2.6727 ms/op
+MainWarmup  3: 256 op, 620134896.63 ns, 2.4224 ms/op
+MainWarmup  4: 256 op, 653217373.74 ns, 2.5516 ms/op
+MainWarmup  5: 256 op, 632883937.91 ns, 2.4722 ms/op
+MainWarmup  6: 256 op, 634386529.88 ns, 2.4781 ms/op
+
+// BeforeMainRun
+MainTarget  1: 256 op, 632828103.89 ns, 2.4720 ms/op
+MainTarget  2: 256 op, 631190442.86 ns, 2.4656 ms/op
+MainTarget  3: 256 op, 643826584.46 ns, 2.5149 ms/op
+MainTarget  4: 256 op, 622834225.10 ns, 2.4329 ms/op
+MainTarget  5: 256 op, 624425905.18 ns, 2.4392 ms/op
+MainTarget  6: 256 op, 630442020.68 ns, 2.4627 ms/op
+MainTarget  7: 256 op, 641411352.62 ns, 2.5055 ms/op
+MainTarget  8: 256 op, 619013700.27 ns, 2.4180 ms/op
+MainTarget  9: 256 op, 650268023.82 ns, 2.5401 ms/op
+MainTarget 10: 256 op, 624030961.61 ns, 2.4376 ms/op
+MainTarget 11: 256 op, 671617967.22 ns, 2.6235 ms/op
+MainTarget 12: 256 op, 640410445.72 ns, 2.5016 ms/op
+MainTarget 13: 256 op, 641762367.95 ns, 2.5069 ms/op
+MainTarget 14: 256 op, 653264586.33 ns, 2.5518 ms/op
+MainTarget 15: 256 op, 621018798.41 ns, 2.4259 ms/op
+
+// AfterMainRun
+Result  1: 256 op, 632826297.49 ns, 2.4720 ms/op
+Result  2: 256 op, 631188636.46 ns, 2.4656 ms/op
+Result  3: 256 op, 643824778.07 ns, 2.5149 ms/op
+Result  4: 256 op, 622832418.71 ns, 2.4329 ms/op
+Result  5: 256 op, 624424098.78 ns, 2.4392 ms/op
+Result  6: 256 op, 630440214.29 ns, 2.4627 ms/op
+Result  7: 256 op, 641409546.22 ns, 2.5055 ms/op
+Result  8: 256 op, 619011893.88 ns, 2.4180 ms/op
+Result  9: 256 op, 650266217.42 ns, 2.5401 ms/op
+Result 10: 256 op, 624029155.21 ns, 2.4376 ms/op
+Result 11: 256 op, 671616160.83 ns, 2.6235 ms/op
+Result 12: 256 op, 640408639.33 ns, 2.5016 ms/op
+Result 13: 256 op, 641760561.56 ns, 2.5069 ms/op
+Result 14: 256 op, 653262779.93 ns, 2.5518 ms/op
+Result 15: 256 op, 621016992.02 ns, 2.4258 ms/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 2.4865 ms, StdErr = 0.0146 ms (0.59%); N = 15, StdDev = 0.0566 ms
+Min = 2.4180 ms, Q1 = 2.4376 ms, Median = 2.4720 ms, Q3 = 2.5149 ms, Max = 2.6235 ms
+IQR = 0.0773 ms, LowerFence = 2.3216 ms, UpperFence = 2.6309 ms
+ConfidenceInterval = [2.4261 ms; 2.5470 ms] (CI 99.9%), Margin = 0.0605 ms (2.43% of Mean)
+Skewness = 0.77, Kurtosis = 2.83
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\HashProxyBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\HashProxyBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\HashProxyBenchmark-report.html
+
+// * Detailed results *
+HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=5000]
+Runtime = .NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0; GC = Concurrent Workstation
+Mean = 29.2313 us, StdErr = 0.1326 us (0.45%); N = 16, StdDev = 0.5303 us
+Min = 28.5833 us, Q1 = 28.7413 us, Median = 29.2432 us, Q3 = 29.5820 us, Max = 30.1532 us
+IQR = 0.8407 us, LowerFence = 27.4803 us, UpperFence = 30.8430 us
+ConfidenceInterval = [28.6914 us; 29.7712 us] (CI 99.9%), Margin = 0.5399 us (1.85% of Mean)
+Skewness = 0.35, Kurtosis = 1.68
+
+
+HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=50000]
+Runtime = .NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0; GC = Concurrent Workstation
+Mean = 248.0627 us, StdErr = 0.7023 us (0.28%); N = 13, StdDev = 2.5321 us
+Min = 244.7423 us, Q1 = 245.9706 us, Median = 248.0229 us, Q3 = 249.2260 us, Max = 254.2426 us
+IQR = 3.2554 us, LowerFence = 241.0876 us, UpperFence = 254.1091 us
+ConfidenceInterval = [245.0303 us; 251.0950 us] (CI 99.9%), Margin = 3.0323 us (1.22% of Mean)
+Skewness = 0.81, Kurtosis = 3.25
+
+
+HashProxyBenchmark.Compute: Job-TOQMCM(Runtime=Clr, IsBaseline=True) [N=500000]
+Runtime = .NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0; GC = Concurrent Workstation
+Mean = 2.4865 ms, StdErr = 0.0146 ms (0.59%); N = 15, StdDev = 0.0566 ms
+Min = 2.4180 ms, Q1 = 2.4376 ms, Median = 2.4720 ms, Q3 = 2.5149 ms, Max = 2.6235 ms
+IQR = 0.0773 ms, LowerFence = 2.3216 ms, UpperFence = 2.6309 ms
+ConfidenceInterval = [2.4261 ms; 2.5470 ms] (CI 99.9%), Margin = 0.0605 ms (2.43% of Mean)
+Skewness = 0.77, Kurtosis = 2.83
+
+
+Total time: 00:01:08 (68.46 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.13, OS=Windows 7 SP1 (6.1.7601.0)
+Intel Core i7-4710MQ CPU 2.50GHz (Haswell), 1 CPU, 8 logical cores and 4 physical cores
+Frequency=2435791 Hz, Resolution=410.5443 ns, Timer=TSC
+  [Host]     : .NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0
+  Job-TOQMCM : .NET Framework 4.6.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2117.0
+
+Runtime=Clr  IsBaseline=True  
+
+  Method |      N |        Mean |      Error |     StdDev | Scaled |
+-------- |------- |------------:|-----------:|-----------:|-------:|
+ Compute |   5000 |    29.23 us |  0.5399 us |  0.5303 us |   1.00 |
+         |        |             |            |            |        |
+ Compute |  50000 |   248.06 us |  3.0323 us |  2.5321 us |   1.00 |
+         |        |             |            |            |        |
+ Compute | 500000 | 2,486.54 us | 60.4796 us | 56.5727 us |   1.00 |
+
+// * Hints *
+Outliers
+  HashProxyBenchmark.Compute: Runtime=Clr, IsBaseline=True -> 1 outlier  was  removed
+  HashProxyBenchmark.Compute: Runtime=Clr, IsBaseline=True -> 2 outliers were removed
+
+// * Legends *
+  N      : Value of the 'N' parameter
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  Scaled : Mean(CurrentBenchmark) / Mean(BaselineBenchmark)
+  1 us   : 1 Microsecond (0.000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
